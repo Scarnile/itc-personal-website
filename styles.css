@@ -42,3 +42,12 @@ header a {
     gap: 25px;
     vertical-align: center;
 }
+
+.homepage-bg {
+    background-image: url("images/homepage-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 105% 85%;
+    height: 1000px;
+    object-fit: cover;
+    object-position: 50px -1000px;
+}
