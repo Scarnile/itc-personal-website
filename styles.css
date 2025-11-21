@@ -1,3 +1,32 @@
+:root {
+  --background-primary: #344678;
+  --text-on-accent: #fff;
+}
+
 body {
+    margin: 0px;
     font-family: 'Inter';font-size: 22px;
+    color: var(--text-on-accent);
+}
+
+header {
+    padding: 15px 110px;
+    background-color: var(--background-primary);
+}
+
+header h1 {
+    display: inline;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+header a {
+    font-weight: 100;
+}
+
+.header-right {
+    display: flex;
+    float: right;
+    align-items: center;
+
 }
