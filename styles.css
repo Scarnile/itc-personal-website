@@ -14,12 +14,16 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     overflow: hidden;
     padding: 15px 110px;
     background-color: var(--background-primary);
 }
 
 header h1 {
+    margin: 0px;
     display: inline;
     font-size: 32px;
     font-weight: bold;
@@ -35,6 +39,6 @@ header a {
 .header-right {
     display: flex;
     float: right;
-    gap: 20px;
+    gap: 25px;
     vertical-align: center;
 }
