@@ -1,6 +1,7 @@
 :root {
   --background-primary: #344678;
   --text-on-color: #fff;
+  --border-radius: 15px;
 }
 
 * {
@@ -113,9 +114,10 @@ section {
     padding: 0px 100px;
 }
 
-.aboutme h1 {
+.section-header {
     font-size: 48px;
     font-weight: bolder;
+    margin: 20px 0px;
 }
 
 .aboutme-text {
@@ -128,4 +130,50 @@ section {
 
 .aboutme-text h1 {
     margin-top: 0px;
+}
+
+/* Interests */
+
+.interests {
+    background-color: var(--background-primary);
+    padding: 30px 100px 60px;
+}
+
+.interests h1, .interests p{
+    color: white    ;
+}
+
+.triple-div {
+    display: flex;
+}
+
+.interests-box {
+    background-color: red;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    flex: 1;
+    border-radius: var(--border-radius);
+    background-color: #223362;
+}
+
+.interests-box-image {
+    background-color: red;
+    flex: 5;
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
+
+.interests-box-content {
+    flex: 4;
+    margin: 30px;
+    font-size: 19px;
+    color: white;
+}
+
+.interests-box-content h1{
+    font-size: 32px;
+    margin: 0px 0px 15px;
+    color: white;
 }
