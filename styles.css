@@ -10,6 +10,7 @@
 
 body {
     margin: 0px;
+    
     font-family: 'Inter';font-size: 22px;
 }
 
@@ -28,6 +29,8 @@ body {
 .section-offset {
     height: 700px;
 }
+
+
 
 /* Header */
 header {
@@ -112,6 +115,7 @@ header a {
 /* About Me */
 section {
     padding: 0px 100px;
+    width: 100%;
 }
 
 .section-header {
@@ -136,6 +140,7 @@ section {
 
 .interests {
     background-color: var(--background-primary);
+    width: 100%;
     padding: 30px 100px 60px;
 }
 
@@ -176,4 +181,22 @@ section {
     font-size: 32px;
     margin: 0px 0px 15px;
     color: white;
+}
+
+/* Obsidian Plugins */
+.obsidian-plugins {
+    /* padding-top: 600px; */
+    background-color: #0F0F0F;
+    padding: 100px 60px;
+    color: white;
+    height: 2000px;
+}
+
+.obsidian-plugins h1 {
+    text-align: center;
+}
+
+.obsidian-plugins img {
+    display: block;
+    margin: auto;
 }
