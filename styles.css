@@ -72,7 +72,7 @@ header a {
 /* Background Image */
 .homepage-bg {
     display: flex;
-    background-image: url("images/homepage-bg-uncropped.jpg");
+    background-image: url("images/homepage-bg-uncropped.png");
     color: var(--text-on-color);
 
     z-index: -9;
@@ -105,10 +105,6 @@ header a {
     float: right;
     display: flex;
     width: 50%;
-}
-
-.container-right p {
-    /* text-align: end; */
 }
 
 .profile-picture {
@@ -257,11 +253,14 @@ section {
 .contact-me .container-left {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .contacts-link-item {
-    width: 100%;
+    width: 20%;
     display: flex;
+    justify-content: space-around;
+
     height: 60px;
     gap: 10px;
 }
@@ -272,6 +271,10 @@ section {
 
 .contacts-link-item p{
     display: inline;
+    margin: 0px;
+    margin: auto;
+    text-align: left;
+
 }
 
 /* Programming Languages */
@@ -301,7 +304,7 @@ section {
     height: 90px;
 }
 
-.programming-languages a{
+.programming-languages a {
     text-decoration: none;
     color: black;
 }
