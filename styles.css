@@ -197,14 +197,17 @@ section {
     background-color: #0F0F0F;
     padding: 100px 60px;
     color: white;
-    height: 1400px;
+}
+
+.obsidian-logo {
+    margin: auto;
 }
 
 .obsidian-plugins h1 {
     text-align: center;
 }
 
-.obsidian-plugins img {
+.plugin-section a {
     display: block;
     margin: auto;
 }
@@ -231,4 +234,76 @@ section {
 
 .plugin-section img {
     border-radius: var(--border-radius);
+}
+
+/* Contacts */
+
+.contact-me {
+    display: flex;
+    justify-content: flex-end;
+    gap: 80px;
+}
+
+.contact-me .container-left {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contacts-link-item {
+    width: 100%;
+    display: flex;
+    height: 60px;
+    gap: 10px;
+}
+
+.contacts-link-item img{
+    display: inline;
+}
+
+.contacts-link-item p{
+    display: inline;
+}
+
+/* Programming Languages */
+.programming-languages {
+    text-align: center;
+    background-color: var(--background-primary);
+    padding: 100px 60px;
+    color: white;
+}
+
+.programming-languages-row {
+    display: flex;
+    gap: 20px;
+}
+
+.programming-languages-item {
+    background-color: white;
+    color: black;
+    padding: 25px;
+    border-radius: var(--border-radius);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+    flex: 1;
+}
+
+.programming-languages-item img{
+    height: 90px;
+}
+
+.programming-languages a{
+    text-decoration: none;
+    color: black;
+}
+
+.github-commits {
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    padding: 25px;
+    border-radius: var(--border-radius);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
