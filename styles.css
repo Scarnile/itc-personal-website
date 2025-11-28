@@ -356,7 +356,7 @@ a {
 .programming-languages-item {
     background-color: white;
     color: black;
-    padding: 25px;
+    padding: 25px 25px;
     border-radius: var(--border-radius);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 
@@ -365,6 +365,10 @@ a {
 
 .programming-languages-item img{
     height: 90px;
+}
+
+.programming-languages-item p {
+    margin-bottom: 0px;
 }
 
 .programming-languages a {
@@ -384,3 +388,6 @@ a {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
+.github-commits:hover {
+    background-color: #f0f0f0;
+}
