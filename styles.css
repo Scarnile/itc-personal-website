@@ -88,8 +88,11 @@ header a {
 }
 
 .container-left{
-    float: left;
     flex: 1;
+}
+
+
+.aboutme .container-left {
 }
 
 .homepage-right {
@@ -97,6 +100,8 @@ header a {
     justify-content: center;
     align-items: end;
     height: 80%;
+    width: 55%;
+
     padding: 100px;
 }
 
@@ -104,7 +109,6 @@ header a {
 .container-right{
     float: right;
     display: flex;
-    width: 50%;
 }
 
 .profile-picture {
@@ -112,14 +116,32 @@ header a {
     border-radius: 10px;
 }
 
-.homepage-berserk p{
-    margin-top: 0px;
+.aboutme .homepage-berserk {
+    display: block;
+}
+
+.homepage-berserk .double-div{
+    gap: 20px;
 }
 
 .homepage-berserk h1{
     text-align: center;
     width: 100%;
     margin-bottom: 50px;
+}
+
+.homepage-berserk p {
+    font-size: 20px;
+    margin-top: 0px;
+
+}
+
+.homepage-berserk .container-left {
+    flex: 1;
+}
+
+.homepage-berserk .container-right {
+    flex: 1;
 }
 
 /* About Me */
@@ -134,9 +156,14 @@ section {
     margin: 20px 0px;
 }
 
+.homepage-berserk h1 {
+    text-align: center;
+
+}
+
 .aboutme {
     display: flex;
-    flex-wrap: wrap;
+    gap: 40px;
 }
 
 .aboutme-text {
@@ -159,6 +186,10 @@ section {
 
 .interests h1, .interests p{
     color: white    ;
+}
+
+.double-div {
+    display: flex;
 }
 
 .triple-div {
@@ -215,7 +246,6 @@ section {
 
 .plugin-section a {
     display: block;
-    margin: auto;
 }
 
 .portfolio-heading-container {
@@ -223,7 +253,7 @@ section {
     flex-direction: row;
     justify-content: center;
     margin: 20px 0px;
-
+    gap: 40px;
 }
 
 .portfolio-heading-container h1 {
@@ -232,10 +262,15 @@ section {
     margin-block-end: 0px;
 }
 
+.portfolio-heading-container a {
+    height: 0px;
+}
+
 .plugin-section {
     display: flex;
     width: 100%;
     height: 400px;
+    gap: 40px;
 }
 
 .plugin-section img {
@@ -246,14 +281,18 @@ section {
 
 .contact-me {
     display: flex;
-    justify-content: flex-end;
+    justify-content:center;
     gap: 80px;
 }
 
 .contact-me .container-left {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
+}
+
+.contact-me .container-right {
+    justify-self: left;
 }
 
 .contacts-link-item {
@@ -320,3 +359,4 @@ section {
     border-radius: var(--border-radius);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
+
