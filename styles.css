@@ -173,6 +173,10 @@ section {
     padding-right: 60px;
 }
 
+.container-right .aboutme-text {
+    padding-right: 0px;
+}
+
 .aboutme-text h1 {
     margin-top: 0px;
 }
@@ -281,18 +285,22 @@ section {
 
 .contact-me {
     display: flex;
-    justify-content:center;
-    gap: 80px;
+    justify-content: center;
+    gap: 50px;
+    width: 75%;
+    margin: auto;
 }
 
 .contact-me .container-left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items:end;
+    justify-content: end;
+    width: 400px;
 }
 
 .contact-me .container-right {
     justify-self: left;
+    flex: 2;
+    width: 430px;
 }
 
 .contacts-link-item {
